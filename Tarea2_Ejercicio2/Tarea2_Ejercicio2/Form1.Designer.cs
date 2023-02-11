@@ -28,13 +28,147 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txt_IPARCIAL = new System.Windows.Forms.TextBox();
+            this.txt_IIPARCIAL = new System.Windows.Forms.TextBox();
+            this.txt_IIIPARCIAL = new System.Windows.Forms.TextBox();
+            this.txt_IVPARCIAL = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(313, 258);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 44);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "CALCULAR PROMEDIO";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(267, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(217, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "INGRESE CALIFICACIONES DEL ALUMNO";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(100, 104);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "I PARCIAL";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "label3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(100, 144);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(61, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "II PARCIAL";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(449, 104);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "III PARCIAL";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(449, 144);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "IV PARCIAL";
+            // 
+            // txt_IPARCIAL
+            // 
+            this.txt_IPARCIAL.Location = new System.Drawing.Point(186, 104);
+            this.txt_IPARCIAL.Name = "txt_IPARCIAL";
+            this.txt_IPARCIAL.Size = new System.Drawing.Size(100, 20);
+            this.txt_IPARCIAL.TabIndex = 7;
+            // 
+            // txt_IIPARCIAL
+            // 
+            this.txt_IIPARCIAL.Location = new System.Drawing.Point(186, 144);
+            this.txt_IIPARCIAL.Name = "txt_IIPARCIAL";
+            this.txt_IIPARCIAL.Size = new System.Drawing.Size(100, 20);
+            this.txt_IIPARCIAL.TabIndex = 8;
+            // 
+            // txt_IIIPARCIAL
+            // 
+            this.txt_IIIPARCIAL.Location = new System.Drawing.Point(530, 104);
+            this.txt_IIIPARCIAL.Name = "txt_IIIPARCIAL";
+            this.txt_IIIPARCIAL.Size = new System.Drawing.Size(100, 20);
+            this.txt_IIIPARCIAL.TabIndex = 9;
+            // 
+            // txt_IVPARCIAL
+            // 
+            this.txt_IVPARCIAL.Location = new System.Drawing.Point(530, 143);
+            this.txt_IVPARCIAL.Name = "txt_IVPARCIAL";
+            this.txt_IVPARCIAL.Size = new System.Drawing.Size(100, 20);
+            this.txt_IVPARCIAL.TabIndex = 10;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.txt_IVPARCIAL);
+            this.Controls.Add(this.txt_IIIPARCIAL);
+            this.Controls.Add(this.txt_IIPARCIAL);
+            this.Controls.Add(this.txt_IPARCIAL);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Name = "Form1";
+            this.Text = "Ejercicio2";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txt_IPARCIAL;
+        private System.Windows.Forms.TextBox txt_IIPARCIAL;
+        private System.Windows.Forms.TextBox txt_IIIPARCIAL;
+        private System.Windows.Forms.TextBox txt_IVPARCIAL;
     }
 }
 
